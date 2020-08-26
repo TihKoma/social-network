@@ -6,10 +6,10 @@ import './index.css';
 import App from './App';
 
 import {Provider} from "react-redux";
-import SamuraiJSApp from "./App";
+import MyApp from "./App";
 
 // let rerenderEntireTree = (state) => {
-ReactDOM.render(<SamuraiJSApp />, document.getElementById('root'));
+ReactDOM.render(<MyApp />, document.getElementById('root'));
 // };
 
 
